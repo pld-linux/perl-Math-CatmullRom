@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	CatmullRom
+%define		pdir	Math
+%define		pnam	CatmullRom
 Summary:	Math::CatmullRom - calculate Catmull-Rom splines
 Summary(pl):	Math::CatmullRom - obliczanie splajnów Catmulla-Roma
 Name:		perl-Math-CatmullRom
