@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	CatmullRom
 Summary:	Math::CatmullRom - calculate Catmull-Rom splines
-Summary(pl):	Math::CatmullRom - obliczanie splajnów Catmulla-Roma
+Summary(pl.UTF-8):   Math::CatmullRom - obliczanie splajnÃ³w Catmulla-Roma
 Name:		perl-Math-CatmullRom
 Version:	0.00
 Release:	1
@@ -28,14 +28,14 @@ that guarantees that the curve will cross every control point starting
 at the second point and terminating at the penultimate one. For this
 reason the minimum number of control points is 4.
 
-%description -l pl
-Ten modu³ udostêpnia algorytm do generowania wykresów splajnów
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia algorytm do generowania wykresÃ³w splajnÃ³w
 Catmulla-Roma.
 
-Splajn Catmulla-Roma mo¿na uznaæ za specjalny typ krzywej Beziera,
-gwarantuj±cy, ¿e krzywa przetnie wszystkie punkty kontrolne poczynaj±c
-od drugiego a koñcz±c na przedostatnim. Dlatego minimalna liczba
-punktów kontrolnych to 4.
+Splajn Catmulla-Roma moÅ¼na uznaÄ‡ za specjalny typ krzywej Beziera,
+gwarantujÄ…cy, Å¼e krzywa przetnie wszystkie punkty kontrolne poczynajÄ…c
+od drugiego a koÅ„czÄ…c na przedostatnim. Dlatego minimalna liczba
+punktÃ³w kontrolnych to 4.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
