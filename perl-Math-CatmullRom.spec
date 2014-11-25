@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	CatmullRom
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::CatmullRom - calculate Catmull-Rom splines
 Summary(pl.UTF-8):	Math::CatmullRom - obliczanie splajnów Catmulla-Roma
 Name:		perl-Math-CatmullRom
@@ -14,6 +14,7 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c924e04872eed511e9b6f7c43af2af45
+URL:		http://search.cpan.org/dist/Math-CatmullRom/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
