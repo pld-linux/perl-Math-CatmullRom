@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	CatmullRom
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::CatmullRom - calculate Catmull-Rom splines
 Summary(pl.UTF-8):	Math::CatmullRom - obliczanie splajnów Catmulla-Roma
 Name:		perl-Math-CatmullRom
